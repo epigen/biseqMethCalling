@@ -10,7 +10,7 @@ The following methods are supported
 * Hybrid-selection bisulfite sequencing
 * Other variants of region-specific bisulfite sequencing (e.g. MethylCap-biseq and ChIP-biseq)
 
-By default CpG are analyzed, but other sequence contexts (CpA, CpH, CpHpG, etc.) are also supported.
+By default CpGs are analyzed, but other sequence contexts (CpA, CpH, CpHpG, etc.) are also supported.
 
 ## Usage
 The main script is `biseqMethCalling.py`. See `python biseqMethCalling.py --help` for a full listing of parameters
@@ -20,7 +20,7 @@ The main script is `biseqMethCalling.py`. See `python biseqMethCalling.py --help
 * parameters (see --help for more info)
 
 ### Output
-* statistics (see the description in StatisticsCollection.writeStatistics2files() for details)
+* statistics (see code documentation for details)
 * CpGs with genomic coordinates and methylation ratios as a bed file
 * Fragment coverage: coordinates, readcounts and CpG methylation ratios of each generated fragment (RRBS: MspI digestion, WGBSS: Paired end reads)
 * Reads: coords (read and fragment the read is on), CpG (possibly other patterns) of __processed__ reads
@@ -30,5 +30,5 @@ The main script is `biseqMethCalling.py`. See `python biseqMethCalling.py --help
 * log files
 * a vast amount of temporary files for each processed region
 
-## Disclaimer
-The code is currently not actively maintained. This repository is for archival purposes.
+## Note
+This is an archiving repository and the contained code is currently not actively maintained.
