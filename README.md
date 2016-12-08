@@ -29,3 +29,6 @@ The main script is `biseqMethCalling.py`. See `python biseqMethCalling.py --help
 * if the verbose option is set: information on the processed windows/regions
 * log files
 * a vast amount of temporary files for each processed region
+
+## Disclaimer
+The code is currently not actively maintained. This repository is for archival purposes.
